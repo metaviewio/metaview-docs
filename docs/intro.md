@@ -2,34 +2,29 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Metaview is a token **review**, **analytics** and **audit** platform. These three components will make up a comprehensive token overview 
+which will be useful when researching coins to ensure that you don't invest in money grabs or scam tokens. This lines up 
+with the fundamental Metaview goal to increase token quality in the crypto space by providing free, transparent and easily 
+accessible data on tokens.
 
-## Getting Started
+## Review Platform
 
-Get started by **creating a new site**.
+The **review** platform allows anyone to submit a review for a coin or token **[here](https://metaview.io/review)**.
+Reviews are publically visible and will provide a key component to the token reputation.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Analytics
 
-## Generate a new site
+Token **analytics** will aim to give an overview of how much real use the token is getting. This will consist of on chain statistics such as tranactions per second, 
+number of active wallets, spread of funds between wallets etc.
 
-Generate a new Docusaurus site using the **classic template**:
+The analytics platform has not been built yet and is a roadmap item.
 
-```shell
-npm init docusaurus@latest my-website classic
-```
 
-## Start your site
+## Audits
 
-Run the development server:
+Smart contract **audits** will be done on specific tokens. These will be done to ensure the quality of the smart contract to ensure the smart contract
+ is secure and not vulnerable to hacking and also to review the smart contract functionality in terms of the functions it provides.
 
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+Smart contract auditing has not started yet and is a roadmap item.
