@@ -13,8 +13,10 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'metaview', // Usually your GitHub org/user name.
+  organizationName: 'metaviewio', // Usually your GitHub org/user name.
   projectName: 'metaview-docs', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // gh-pages is the default
+  trailingSlash: false, 
 
   presets: [
     [
