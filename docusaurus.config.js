@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Metaview',
-  tagline: 'Documatation site for metaview',
+  tagline: 'Documatation site for metaview.',
   url: 'https://docs.metaview.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,7 +16,7 @@ const config = {
   organizationName: 'metaviewio', // Usually your GitHub org/user name.
   projectName: 'metaview-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages', // gh-pages is the default
-  trailingSlash: false, 
+  trailingSlash: false,
 
   presets: [
     [
@@ -24,7 +24,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-		  routeBasePath: '/', // Serve the docs at the site's root
+		      routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/metaviewio/metaview-docs',
@@ -41,17 +41,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Metaview',
+        title: 'Metaview Docs',
         logo: {
-          alt: 'Metaview Logo',
+          alt: 'Metaview Docs',
           src: 'img/logo.png',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+            href: 'https://metaview.io',
+            position: 'right',
+            label: 'Home',
           },
           {
             href: 'https://github.com/metaviewio',
@@ -61,7 +60,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Metaview`,

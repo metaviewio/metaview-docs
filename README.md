@@ -44,5 +44,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 Deploying from windows:
 
 ```
-cmd /C "set "GIT_USER=ruskinjanowski" && yarn deploy"
+cmd /C "set "GIT_USER=<Your GitHub username>" && yarn deploy"
 ```
