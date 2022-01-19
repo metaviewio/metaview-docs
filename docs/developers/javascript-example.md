@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Javascript
+# Javascript Example
 
-To access token ratings from a Javascript environment such as a web browser or [Node.js](https://nodejs.org/) you can copy the following code sample or clone the [sample repository](https://github.com/metaviewio/metaview-examples-javascript).
+To access token ratings from a Javascript environment such as a web browser or [Node.js](https://nodejs.org/) you can copy the following code sample or clone the [javascript example repository](https://github.com/metaviewio/metaview-examples-javascript).
 
 ## Sample Code
 
@@ -36,7 +36,7 @@ The sample code uses the `getDefaultProvider` function, however it is recommende
 
 ## Contract ABI
 
-This is the Metaview complete ABI in the format used by the Ethers.js library.
+This is the Metaview contract ABI in the format used by the [Ethers.js](https://docs.ethers.io/) library.
 
 ```js
 [

@@ -11,19 +11,17 @@ Developers can integrate with Metaview using a javascript library such as [Web3.
 The following documentation will help you get started by providing examples and an API reference.
 
 ## Useful Links
-Before you start it is recommended that you already know javascript or solidity. Here are some usefull resources.
+Before you start we recommend that you already know javascript or solidity. Here are some usefull resources.
 
 - [Javascript Tutorial](https://www.w3schools.com/js/)
 - [Ethereum Development Tutorials](https://ethereum.org/en/developers/tutorials/)
 - [Getting Started with Truffle](https://www.trufflesuite.com/docs/truffle/quickstart)
 
 ## Examples
-- [Javascript Example](/developers/javascript)
-- [Solidity Example](/developers/solidity)
+- [Javascript Example](/developers/javascript-example)
 
 ## API Reference
-- getAggregateRating
-- getRating
-- setRating
-- setBonus
-
+- [getAggregateRating](/developers/api-reference#getaggregaterating)
+- [getRating](/developers/api-reference#getrating)
+- [setRating](/developers/api-reference#setrating)
+- [setBonus](/developers/api-reference#setbonus)
