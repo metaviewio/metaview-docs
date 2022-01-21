@@ -41,8 +41,18 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 
-Deploying from windows:
+On Windows:
 
 ```
 cmd /C "set "GIT_USER=<Your GitHub username>" && yarn deploy"
+```
+
+### Updating the Search Index
+
+Create a `.env.algolia` file with `APPLICATION_ID` and `API_KEY`.
+
+Run the following Docker command:
+
+```
+docker run -it --env-file=.env.algolia -e "CONFIG=$(cat algolia.config.json | jq -r tostring)" algolia/docsearch-scraper
 ```
